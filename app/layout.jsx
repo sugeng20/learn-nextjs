@@ -1,10 +1,14 @@
 export default function Layout({ children }) {
   return (
-    <html>
+    <html lang="en">
       <head>
-        <title>Learn Next JS</title>
+        <title>Learn Next JS Fundamental</title>
       </head>
-      <body>{children}</body>
+      <body>
+        <header>[header]</header>
+        <main>{children}</main>
+        <footer>[footer]</footer>
+      </body>
     </html>
   );
 }
