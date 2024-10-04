@@ -28,7 +28,10 @@ export default function Layout({ children }) {
           </nav>
         </header>
         <main>{children}</main>
-        <footer>[footer]</footer>
+        <footer>
+          <hr />
+          <p>Copyright 2022</p>
+        </footer>
       </body>
     </html>
   );
