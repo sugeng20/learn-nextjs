@@ -1,9 +1,9 @@
 import Link from "next/link";
-
+import Heading from "../../components/Heading";
 export default function BlogPage() {
   return (
     <>
-      <h1>Blog Page</h1>
+      <Heading>Blog Page</Heading>
       <p>List Of Posts</p>
       <ul>
         <li>

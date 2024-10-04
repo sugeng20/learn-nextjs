@@ -1,7 +1,8 @@
+import Heading from "../../../components/Heading";
 export default function PostPage() {
   return (
     <>
-      <h1>Post Page</h1>
+      <Heading>Post Page</Heading>
       <p>Hellow world, this is next.js app</p>
     </>
   );
