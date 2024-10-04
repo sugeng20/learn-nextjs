@@ -1,5 +1,5 @@
-import Link from "next/link";
 import "./globals.css";
+import Navbar from "../components/Navbar";
 
 export default function Layout({ children }) {
   return (
@@ -7,30 +7,12 @@ export default function Layout({ children }) {
       <head>
         <title>Learn Next JS Fundamental</title>
       </head>
-      <body>
+      <body className="bg-gray-100 flex flex-col px-4 py-4 min-h-screen">
         <header>
-          <nav>
-            <ul>
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/blog">Blog</Link>
-              </li>
-              <li>
-                <Link href="/about">About</Link>
-              </li>
-              <li>
-                <Link href="/contact" prefetch={false}>
-                  Contact
-                </Link>
-              </li>
-            </ul>
-          </nav>
+          <Navbar />
         </header>
-        <main>{children}</main>
-        <footer>
-          <hr />
+        <main className="py-3 grow">{children}</main>
+        <footer className="border-t py-3 text-center text-xs">
           <p>Copyright 2022</p>
         </footer>
       </body>
