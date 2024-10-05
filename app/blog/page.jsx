@@ -15,7 +15,7 @@ export default function BlogPage() {
           ullamcorper diam."
         date="13.01.2022"
         author="Admin"
-        image="/images/images-1.png"
+        image="/images/image-1.png"
       />
       <PostCard
         title="Belajar Next.js"
@@ -25,7 +25,7 @@ export default function BlogPage() {
           ullamcorper diam."
         date="13.01.2022"
         author="Admin"
-        image="/images/images-2.png"
+        image="/images/image-2.png"
       />
       <PostCard
         title="Belajar Next.js"
@@ -35,7 +35,7 @@ export default function BlogPage() {
           ullamcorper diam."
         date="13.01.2022"
         author="Admin"
-        image="/images/images-1.png"
+        image="/images/image-1.png"
       />
     </>
   );
