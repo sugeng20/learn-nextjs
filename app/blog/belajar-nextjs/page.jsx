@@ -1,10 +1,12 @@
 import Heading from "@/components/Heading";
-export default function PostPage() {
+import { readFile } from "node:fs/promises";
+export default async function PostPage() {
+  const text = await readFile("./content/blog/belajar-nextjs.md", "utf-8");
   return (
     <>
       <Heading>Post Page</Heading>
       <img src="/images/images-1.png" width={640} height={360} alt="" />
-      <p>Hellow world, this is next.js app</p>
+      <p>{text}</p>
     </>
   );
 }
