@@ -1,5 +1,6 @@
 ---
 title: "Belajar Next.js"
+description: "deskripsi cukup panjang untuk markdown"
 image: "/images/image-1.png"
 date: "26/11/2023"
 author: "admin"

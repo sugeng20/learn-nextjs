@@ -15,8 +15,8 @@ export default async function BlogPage() {
           <PostCard
             key={index}
             title={post.title}
-            href="#"
-            description=""
+            href={`/blog/${post.slug}`}
+            description={post.description}
             date={post.date}
             author={post.author}
             image={post.image}
