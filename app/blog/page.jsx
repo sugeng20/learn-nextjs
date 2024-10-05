@@ -15,10 +15,8 @@ export default async function BlogPage() {
           <PostCard
             key={index}
             title={post.title}
-            href="/blog/belajar-nextjs"
-            description="Ut pretium ultricies dignissim. Sed sit amet mi eget urna placerat
-          vulputate. Ut vulputate est non quam dignissim elementum. Donec a
-          ullamcorper diam."
+            href="#"
+            description=""
             date={post.date}
             author={post.author}
             image={post.image}
