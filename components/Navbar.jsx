@@ -5,24 +5,30 @@ export default function Navbar() {
     <nav>
       <ul className="flex gap-2">
         <li>
-          <Link href="/" className="text-gray-800 hover:underline">
+          <Link href="/" className="text-gray-800 font-roboto hover:underline">
             Home
           </Link>
         </li>
-        <li>
-          <Link href="/blog" className="text-gray-800 hover:underline">
+        <li className="ml-auto">
+          <Link
+            href="/blog"
+            className="text-gray-800 font-roboto hover:underline"
+          >
             Blog
           </Link>
         </li>
         <li>
-          <Link href="/about" className="text-gray-800 hover:underline">
+          <Link
+            href="/about"
+            className="text-gray-800 font-roboto hover:underline"
+          >
             About
           </Link>
         </li>
         <li>
           <Link
             href="/contact"
-            className="text-gray-800 hover:underline"
+            className="text-gray-800 font-roboto hover:underline"
             prefetch={false}
           >
             Contact
