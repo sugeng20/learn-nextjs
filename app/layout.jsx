@@ -3,8 +3,11 @@ import Navbar from "../components/Navbar";
 import { roboto } from "./fonts";
 
 export const metadata = {
-  title: "Situs Next.js App",
-  description: "This is my next.js app",
+  title: {
+    default: "Situs Next.js",
+    template: "%s | My Next.js App",
+  },
+  description: "Halaman beranda",
 };
 
 export default function Layout({ children }) {
